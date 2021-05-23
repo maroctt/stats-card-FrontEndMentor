@@ -84,7 +84,6 @@ a {
 }
 footer {
   display: block;
-  bottom: 15px;
 }
 
 /*MOBILE*/
@@ -92,12 +91,13 @@ footer {
   .container {
     min-width: 327px;
     max-width: 486px;
-    height: 80vh;
+    height: 85vh;
     flex-direction: column-reverse;
     padding: 0;
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    overflow: scroll;
   }
   .hero-image,
   .hero-image img {
@@ -116,11 +116,11 @@ footer {
   }
   .stats {
     flex-direction: column;
-    margin-top: 2%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 8%;
   }
   .stats-numbers {
     margin-bottom: 2%;
-    margin-top: 13%;
+    margin-top: 10%;
   }
 }
